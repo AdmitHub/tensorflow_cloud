@@ -170,7 +170,7 @@ def _validate_cluster_config(
             if (version is not None and
                     version not in gcp.get_cloud_tpu_supported_tf_versions()):
                 raise NotImplementedError(
-                    "TPUs are only supported for TF version <= 2.2.0"
+                    "TPUs are only supported for some TF versions"
                 )
 
 

@@ -238,7 +238,7 @@ class TestDeploy(absltest.TestCase):
         ]["count"] = "8"
         self.expected_request_dict["trainingInput"]["workerConfig"][
             "tpuTfVersion"
-        ] = "2.2"
+        ] = "2.4"
         self.expected_request_dict["trainingInput"]["masterConfig"][
             "acceleratorConfig"
         ]["type"] = "ACCELERATOR_TYPE_UNSPECIFIED"
